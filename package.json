@@ -1,0 +1,16 @@
+{
+    "name": "wordle",
+    "version": "1.0.0",
+    "description": "wordle game",
+    "main": "./src/app.js",
+    "type": "module",
+    "scripts": {
+        "start": "node ./src/app.js",
+        "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+    },
+    "author": "Karim Isaac",
+    "license": "ISC",
+    "dependencies": {
+        "jest": "^29.4.1"
+    }
+}
